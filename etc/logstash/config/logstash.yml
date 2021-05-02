@@ -1,0 +1,7 @@
+http.host: 0.0.0.0
+pipeline:
+  batch:
+    delay: 50
+    size: 125
+xpack.monitoring.elasticsearch.hosts: http://192.168.56.102:9200
+xpack.monitoring.enabled: true
